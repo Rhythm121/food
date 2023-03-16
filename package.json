@@ -1,0 +1,29 @@
+{
+  "name": "foodorder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/app.js -e js "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "express": "^4.18.2",
+    "express.js": "^1.0.0",
+    "hbs": "^4.2.0",
+    "jquery": "^3.6.4",
+    "mongod": "^2.0.0",
+    "mongodb": "^5.1.0",
+    "mongoose": "^7.0.1",
+    "node": "^19.6.1",
+    "node.js": "0.0.1-security",
+    "nodemon": "^2.0.21",
+    "start": "^5.1.0",
+    "users": "^2.0.0",
+    "validator": "^13.9.0"
+  }
+}

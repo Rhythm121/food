@@ -1,0 +1,111 @@
+.container{
+    display: flex;
+}
+.left{
+    width:50%;
+    display: flex;
+
+}
+.img{
+   border-image: 2px;
+    border-radius: 1000px;
+    height: 70px;
+    width: 70px;
+    background-image: url("https://www.shutterstock.com/image-vector/food-logo-smile-label-company-grocery-1271590297");
+}
+.navbar-brand{
+    font-size: 16px;
+    padding-top: 52px;
+    padding-left: 30px;
+}
+
+.right{
+  width: 50%;
+}
+.container2{
+    display: flex;
+}
+.homelink{
+  display: flex;
+  padding-top: 52px;
+  padding-left: 10%;
+  justify-content: right;
+  color: aliceblue;
+
+}
+.nav-item{
+padding-left: 4px;
+padding-right: 4px;
+color: rgba(246, 243, 243, 0.999);
+font-size: 22px;
+}
+.searching{
+    display: flex;
+    justify-content: left;
+    padding-top: 52px;
+  padding-right: 17%;
+}
+.form-control{
+  
+    justify-items: left;
+    width: 200px;
+}
+.navbar{
+   
+    position:sticky;
+    top:0;
+    cursor: pointer;
+
+    background: rgba(187, 170, 170, 0.7)url("https://images.pexels.com/photos/3758133/pexels-photo-3758133.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-size: cover;
+    background-blend-mode: darken;
+  height: 100px;
+  width: auto;
+  }
+  .text1{
+ background-image: url("https://images.pexels.com/photos/3758133/pexels-photo-3758133.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+ background-size: cover;
+ justify-content: center;
+ height: 90vh;
+ text-align: center;
+ padding-top: 200px;
+ font-size: 20px;
+ font-style: italic;
+
+ 
+  }
+.displaytext1{
+    text-decoration-line: underline;
+}
+  .text1p{
+    color: white;
+  }
+  .text-footer{
+    background-color: black;
+    color: white;
+   padding-left: 40%;
+  }
+  .map{
+    display: flex;
+    background-color: whitesmoke;
+    font-style: italic;
+    font-size: larger;
+  }
+  .mapright{
+ padding-left: 70px;
+ font-size: 52px;
+ background-image: url('https://images.pexels.com/photos/10070972/pexels-photo-10070972.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+ background-size: cover;
+  }
+  .container3{
+    padding-left: 40%;
+    background-color: whitesmoke;
+  }
+  .formtext1{
+    font-size: 32px;
+    text-decoration: underline;
+    color: black;
+  }
+  .form-group{
+   padding-top: 2px;
+  }
